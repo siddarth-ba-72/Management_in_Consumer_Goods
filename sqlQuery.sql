@@ -69,10 +69,7 @@ where m.manufacturing_cost in (
 
 -- Generate a report which contains the top 5 customers who received an
 -- average high pre_invoice_discount_pct for the fiscal year 2021 and in the
--- Indian market. The final output contains these fields,
--- customer_code
--- customer
--- average_discount_percentage
+-- Indian market.
 select
 	c.customer, c.customer_code, 
     avg(p.pre_invoice_discount_pct) as average_discount_percentage
