@@ -1,0 +1,1 @@
+# Consumer Goods Management Data Analysis using SQL
